@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); /* Example font */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.rotate-animation {
+  animation: rotate360 10s linear infinite;
+}
+
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
